@@ -45,7 +45,6 @@ public class StackPreOrder{
 		if(root == null){
 			return;
 			}
-		//Stack<TreeNode> stack = new Stack<>();
 		push(root);
 		while(!isEmpty()){
 			ListNode temp = pop();
